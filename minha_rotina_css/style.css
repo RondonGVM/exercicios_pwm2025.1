@@ -1,31 +1,36 @@
 .botao {
-    display: inline-block;
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  .botao:hover {
-    background-color: #0056b3;
-  }
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
 
-  .img-fixa {
-    position: fixed;
-    bottom: 10px; 
-    right: 10px; 
-    width: 100px; 
-    height: auto;
-  }
-  
-  .som{
-    display: none;
-  }
+.botao:hover {
+  background-color: #0056b3;
+}
 
-  video {
-    border: 5px solid #007bff;
-    border-radius: 10px;
-  }
-  
+.img-fixa {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 100px;
+  height: auto;
+}
+
+.som {
+  display: none;
+}
+
+video {
+  border: 5px solid #007bff;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.quote {
+  font-style: italic;
+  color: #0056b3;
+}
